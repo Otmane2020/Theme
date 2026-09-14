@@ -1,0 +1,16 @@
+<!-- Gabarit d'icône : dupliquer ce fichier pour chaque app, changer #app-glyph -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="iconbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1428a0"/>
+      <stop offset="100%" stop-color="#0074d9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="120" fill="url(#iconbg)"/>
+
+  <g id="app-glyph" fill="#ffffff" fill-opacity="0.92">
+    <!-- Remplacer ce cercle par le glyphe de chaque application -->
+    <circle cx="256" cy="256" r="90"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="3120" viewBox="0 0 1440 3120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1550"/>
+      <stop offset="45%" stop-color="#1428a0"/>
+      <stop offset="100%" stop-color="#0074d9"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4d6bff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4d6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="3120" fill="url(#bg)"/>
+
+  <circle cx="1150" cy="650" r="560" fill="url(#glow1)"/>
+  <circle cx="200" cy="2300" r="620" fill="url(#glow2)"/>
+
+  <g opacity="0.12" stroke="#ffffff" stroke-width="2">
+    <circle cx="720" cy="1560" r="420" fill="none"/>
+    <circle cx="720" cy="1560" r="620" fill="none"/>
+    <circle cx="720" cy="1560" r="820" fill="none"/>
+  </g>
+
+  <g transform="translate(720,1560)">
+    <polygon points="0,-140 121,-70 121,70 0,140 -121,70 -121,-70"
+      fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="4"/>
+  </g>
+
+  <text x="720" y="2760" font-family="Segoe UI, Arial, sans-serif" font-size="72"
+    font-weight="800" fill="#ffffff" fill-opacity="0.85" text-anchor="middle"
+    letter-spacing="4">GALAXY</text>
+</svg>
